@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "letmemixinpleasetest",
+  "version": "${version}",
+  "name": "LetMeMixinPlease - Test",
+  "mixins": [
+    "letmemixinpleasetest.mixin.json"
+  ]
+}

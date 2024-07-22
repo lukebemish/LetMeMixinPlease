@@ -1,0 +1,15 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "BSD-3-Clause"
+issueTrackerURL = "https://github.com/lukebemishprojects/LetMeMixinPlease/issues"
+
+[[mods]]
+modId = "letmemixinpleasetest"
+version = "${version}"
+displayName = "LetMeMixinPlease - Test"
+displayURL = "https://github.com/lukebemishprojects/LetMeMixinPlease"
+description = "Tests for LetMeMixinPlease."
+authors = "Luke Bemish"
+
+[[mixins]]
+config = "letmemixinpleasetest.mixin.json"
