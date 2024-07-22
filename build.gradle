@@ -39,6 +39,8 @@ managedVersioning {
             }
         }
     }
+
+    apply()
 }
 
 sourceSets {
@@ -88,7 +90,7 @@ tasks.named('compileTestmodJava', JavaCompile) {
 
 ['processResources', 'processTestmodResources'].each { tasks.named(it, ProcessResources) {
     var replaceProperties = [
-            version: project.version
+            version: project.version as String
     ]
     inputs.properties replaceProperties
     filesMatching(['META-INF/neoforge.mods.toml', 'fabric.mod.json']) {
